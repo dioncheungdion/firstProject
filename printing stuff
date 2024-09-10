@@ -1,0 +1,18 @@
+public class Main {
+    public static void main(String[] args) {
+int num1 = 23; 
+double num2 = 5.5;
+double answer = num1 + num2; // add 23+5.5
+boolean confirm = true;
+char letters = 'D';
+String myString = "Hello";
+String myString2 = "weewoo";
+        System.out.println(num1);
+        System.out.println(num2);
+        System.out.println(confirm);
+        System.out.println(letters);
+        System.out.println(myString);
+        System.out.printf("%s and also %s \n",myString,myString2); // random text
+        System.out.printf("%d + %f = %f",num1,num2,answer); // addition string
+    }
+}
